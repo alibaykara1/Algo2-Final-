@@ -1,5 +1,7 @@
 package Thread2;
 //Çoklu Thread ve Farklı Sleep Süreleri
+//Soru: tik yazılacak 1 sn bekleyecek , tak yazacak 2 sn bekleyecek .
+// 3 defa yazılacak ikiside
 
 //sınavda yazacağın ana Thread şablonu
 public class MesajThread extends Thread{
