@@ -13,10 +13,9 @@ public class SayiciThread extends Thread{
             //3. 1 saniye bekleme işlemi
             try{
                 Thread.sleep(1000); //1000 milisaniye uyut
-            } catch (InterruptedException e ){
-                System.out.println("Thread kesintiye uğradı.");
+            } catch (InterruptedException e ){          //Interrupted Kesintiye uğramış demek
+                System.out.println("Thread kesintiye uğradı." + e);
             }
         }
     }
 }
-
