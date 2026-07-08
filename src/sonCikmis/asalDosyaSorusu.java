@@ -35,7 +35,7 @@ public class asalDosyaSorusu {
         if (sayi<2){
             return false;
         }
-        for(int i=2 ; i<Math.sqrt(sayi) ; i++){
+        for(int i=2 ; i<=Math.sqrt(sayi) ; i++){
             if(sayi%i == 0 ){
                 return false ;
             }
